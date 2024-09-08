@@ -1,0 +1,41 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent{
+  width: 1000px;
+    height: 1000px;
+    background-color: rgba(233, 150, 122, 0.471);
+    display: flex;
+     flex-wrap: wrap;
+     align-content: space-around;
+    text-align: center;
+     justify-content: space-around;
+     
+     
+}
+.child1{
+  
+  position: sticky;
+  top:0;
+    border: 3px solid rgb(253, 253, 253);
+  width:400px ;
+
+    background-color: aquamarine
+}
+.child{
+     
+    border: 3px solid rgb(253, 248, 248);
+    width: 400px;
+  
+background-color: teal;
+
+}
+li{
+    display: inline;
+}
+h2{
+    font-family: "Sevillana", cursive;
+}
